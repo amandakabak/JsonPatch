@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace JsonPatch
 {
-    public enum JsonPatchOperationType
-    {
-        add = 0,
-        remove = 1,
-        replace = 2,
-        move = 3
-    }
+	public enum JsonPatchOperationType
+	{
+		add = 0,
+		remove = 1,
+		replace = 2,
+		move = 3,
+		test = 4
+	}
 }
